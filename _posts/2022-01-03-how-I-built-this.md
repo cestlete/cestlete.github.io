@@ -2,7 +2,7 @@
 layout: article
 title: 使用Jekyll创建GitHub Pages站点
 mathjax: true
-tags: 
+tags:
 -GitHub
 -TeXt
 ---
@@ -22,13 +22,13 @@ tags:
 
 此时，可以访问http://localhost:4000/预览我对站点内容所进行的改动了，但是访问https://cestlete.github.io/，看到的并不是本地预览的首页内容，而是——
 
-![wrong page2022-01-03 140311](C:\Users\hmq\Desktop\wrong page2022-01-03 140311.jpg)
+![wrong page2022-01-03 140311](https://github.com/cestlete/cestlete.github.io/blob/master/assets/images/wrong%20page2022-01-03%20140311.jpg){:.rounded.shadow}
 
 原来是建站的分支不正确，从gh-pages改成master，即可以通过访问https://cestlete.github.io/看到我的GitHub Pages站点。
 
-![branch master2022-01-03 140450](C:\Users\hmq\Desktop\branch master2022-01-03 140450.jpg)
+![branch master2022-01-03 140450](https://github.com/cestlete/cestlete.github.io/blob/master/assets/images/branch%20master2022-01-03%20140450.jpg){:.rounded.shadow}
 
-![my github page 2022-01-03 144623](C:\Users\hmq\Desktop\my github page 2022-01-03 144623.jpg)
+![my github page 2022-01-03 144623](https://github.com/cestlete/cestlete.github.io/blob/master/assets/images/my%20github%20page%202022-01-03%20144623.jpg){:.rounded.shadow}
 
 至此，建站的工作就完成了，这一篇算是试用发布文章的功能，至于其他的设置，以后再慢慢展开。毕竟最重要的是内容。
 
