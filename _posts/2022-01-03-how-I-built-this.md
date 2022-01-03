@@ -20,7 +20,7 @@ tags: GitHub
 
 此时，可以访问http://localhost:4000/预览我对站点内容所进行的改动了，但是访问https://cestlete.github.io/，看到的并不是本地预览的首页内容，而是——
 
-![wrong page2022-01-03 140311](../../../../../assets/images/branch%20master2022-01-03%20140450.jp)
+![wrong page2022-01-03 140311](../../../../../assets/images/branch%20master2022-01-03%20140450.jpg)
 
 原来是建站的分支不正确，从gh-pages改成master，即可以通过访问https://cestlete.github.io/看到我的GitHub Pages站点。
 
