@@ -2,9 +2,7 @@
 layout: article
 title: 使用Jekyll创建GitHub Pages站点
 mathjax: true
-tags:
--GitHub
--TeXt
+tags: GitHub
 ---
 简短快速地记录创建 GitHub Pages站点的过程，作为第一篇的内容。
 
