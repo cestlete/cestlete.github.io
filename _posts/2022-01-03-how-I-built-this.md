@@ -3,4 +3,40 @@ layout: article
 title: 使用Jekyll创建GitHub Pages站点
 mathjax: true
 ---
-简短快速地记录一下创建 GitHub Pages站点的过程，作为第一篇的内容。
+简短快速地记录创建 GitHub Pages站点的过程，作为第一篇的内容。
+
+注册和登录Github账号，安装Git。此处略过。
+
+参考[TeXt Theme文档](https://tianqi.name/jekyll-TeXt-theme/)，选择普通方式安装TeXt。
+
+在安装开发环境这一步，本想使用Docker，但是卡在生成 *Gemfile.lock* 文件那一步，迟迟无法解决，最终还是选择了手动安装Ruby。
+
+参考[在Winodws上運作jekyll](https://wcc723.github.io/jekyll/2014/01/13/windows-jekyll-server/)，进行到jekyll server这一步，报了“cannot load such file -- webrick (LoadError)”，参考[这个答案](https://github.com/jekyll/jekyll/issues/8523)，“Adding `gem "webrick"` to my Gemfile solves the problem”。
+
+后来又报了“Permission denied - bind(2) for 127.0.0.1:4000 (Errno::EACCES) ”，原来是端口被占用，参考[这里](https://segmentfault.com/q/1010000010483290)将占用4000端口的进程关闭。
+
+此时，可以访问http://localhost:4000/预览我对站点内容所进行的改动了，但是访问https://cestlete.github.io/，看到的并不是本地预览的首页内容，而是——
+
+![wrong page2022-01-03 140311](C:\Users\hmq\Desktop\wrong page2022-01-03 140311.jpg)
+
+原来是建站的分支不正确，从gh-pages改成master，即可以通过访问https://cestlete.github.io/看到我的GitHub Pages站点。
+
+![branch master2022-01-03 140450](C:\Users\hmq\Desktop\branch master2022-01-03 140450.jpg)
+
+![my github page 2022-01-03 144623](C:\Users\hmq\Desktop\my github page 2022-01-03 144623.jpg)
+
+至此，建站的工作就完成了，这一篇算是试用发布文章的功能，至于其他的设置，以后再慢慢展开。毕竟最重要的是内容。
+目前在文章里插入图片不是非常方便，也许是我还没有掌握技巧，还要继续学习。
+
+参考链接：
+1.[用 Jekyll 在 GitHub 上搭建你的个人网站](https://sinantang.github.io/a%20developer%20guide%20for%20newbies%20-%20starting%20with%20python/2017/09/23/building-your-own-static-site-using-jekyll/)
+
+2.[用 Github pages 和 Jekyll 搭建博客](https://yuleii.github.io/2020/06/09/build-blog-with-github-pages-and-jekyll.html)
+
+3.[在Winodws上運作jekyll](https://wcc723.github.io/jekyll/2014/01/13/windows-jekyll-server/)
+
+4.[Jekyll serve fails on Ruby 3.0](https://github.com/jekyll/jekyll/issues/8523)
+
+5.[Rails: Permission denied - bind(2) for "127.0.0.1" port 3000 (Errno::EACCES)](https://stackoverflow.com/questions/43739386/rails-permission-denied-bind2-for-127-0-0-1-port-3000-errnoeacces)
+
+6.[Jekyll 搭建 Blog 上传到 Github，访问总是报错 404？](https://www.zhihu.com/question/39820273)
