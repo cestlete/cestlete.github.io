@@ -43,10 +43,12 @@ tags: GitHub
 
 2.[用 Github pages 和 Jekyll 搭建博客](https://yuleii.github.io/2020/06/09/build-blog-with-github-pages-and-jekyll.html)
 
-3.[在Winodws上運作jekyll](https://wcc723.github.io/jekyll/2014/01/13/windows-jekyll-server/)
+3.[Creating a GitHub Pages site with Jekyll](https://docs.github.com/cn/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
-4.[Jekyll serve fails on Ruby 3.0](https://github.com/jekyll/jekyll/issues/8523)
+4.[在Winodws上運作jekyll](https://wcc723.github.io/jekyll/2014/01/13/windows-jekyll-server/)
 
-5.[Rails: Permission denied - bind(2) for "127.0.0.1" port 3000 (Errno::EACCES)](https://stackoverflow.com/questions/43739386/rails-permission-denied-bind2-for-127-0-0-1-port-3000-errnoeacces)
+5.[Jekyll serve fails on Ruby 3.0](https://github.com/jekyll/jekyll/issues/8523)
 
-6.[Jekyll 搭建 Blog 上传到 Github，访问总是报错 404？](https://www.zhihu.com/question/39820273)
+6.[Rails: Permission denied - bind(2) for "127.0.0.1" port 3000 (Errno::EACCES)](https://stackoverflow.com/questions/43739386/rails-permission-denied-bind2-for-127-0-0-1-port-3000-errnoeacces)
+
+7.[Jekyll 搭建 Blog 上传到 Github，访问总是报错 404？](https://www.zhihu.com/question/39820273)
