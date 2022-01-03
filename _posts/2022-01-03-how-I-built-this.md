@@ -26,9 +26,11 @@ mathjax: true
 ![my github page 2022-01-03 144623](C:\Users\hmq\Desktop\my github page 2022-01-03 144623.jpg)
 
 至此，建站的工作就完成了，这一篇算是试用发布文章的功能，至于其他的设置，以后再慢慢展开。毕竟最重要的是内容。
+
 目前在文章里插入图片不是非常方便，也许是我还没有掌握技巧，还要继续学习。
 
 参考链接：
+
 1.[用 Jekyll 在 GitHub 上搭建你的个人网站](https://sinantang.github.io/a%20developer%20guide%20for%20newbies%20-%20starting%20with%20python/2017/09/23/building-your-own-static-site-using-jekyll/)
 
 2.[用 Github pages 和 Jekyll 搭建博客](https://yuleii.github.io/2020/06/09/build-blog-with-github-pages-and-jekyll.html)
