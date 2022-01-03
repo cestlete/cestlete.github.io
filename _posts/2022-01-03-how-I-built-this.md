@@ -20,13 +20,13 @@ tags: GitHub
 
 此时，可以访问http://localhost:4000/预览我对站点内容所进行的改动了，但是访问https://cestlete.github.io/，看到的并不是本地预览的首页内容，而是——
 
-![wrong page2022-01-03 140311](../../../../../assets/images/branch%20master2022-01-03%20140450.jpg)
+![wrong page2022-01-03 140311](../../../../../assets/images/wrong%20page2022-01-03%20140311.jpg){:.border.rounded}
 
 原来是建站的分支不正确，从gh-pages改成master，即可以通过访问https://cestlete.github.io/看到我的GitHub Pages站点。
 
-![branch master2022-01-03 140450](https://github.com/cestlete/cestlete.github.io/blob/master/assets/images/branch%20master2022-01-03%20140450.jpg)
+![branch master2022-01-03 140450](../../../../../assets/images/branch%20master2022-01-03%20140450.jpg){:.border.rounded}
 
-![my github page 2022-01-03 144623](https://github.com/cestlete/cestlete.github.io/blob/master/assets/images/my%20github%20page%202022-01-03%20144623.jpg)
+![my github page 2022-01-03 144623](../../../../../assets/images/my%20github%20page%202022-01-03%20144623.jpg){:.border.rounded}
 
 至此，建站的工作就完成了，这一篇算是试用发布文章的功能，至于其他的设置，以后再慢慢展开。毕竟最重要的是内容。
 
