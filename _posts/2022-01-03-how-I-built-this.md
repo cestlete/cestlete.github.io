@@ -8,7 +8,7 @@ tags: ["GitHub", "TeXt"]
 
 笔记本操作系统是Windows 11。
 
-注册和登录Github账号，安装Git。此处略过。
+注册和登录Github账号，安装Git、GitHub Desktop。此处略过。
 
 参考[TeXt Theme文档](https://tianqi.name/jekyll-TeXt-theme/)，选择普通方式安装TeXt。
 
