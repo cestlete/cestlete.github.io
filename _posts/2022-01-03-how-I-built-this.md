@@ -22,7 +22,7 @@ tags: ["GitHub", "TeXt"]
 
 ![wrong page2022-01-03 140311](../../../../../assets/images/wrong%20page2022-01-03%20140311.jpg){:.border.rounded}
 
-原来是建站的分支不正确，从gh-pages改成master，即可以通过访问https://cestlete.github.io/看到我的GitHub Pages站点。
+这是由于建站的分支不正确，从gh-pages改成master，即可以通过访问https://cestlete.github.io/看到我的GitHub Pages站点。
 
 ![branch master2022-01-03 140450](../../../../../assets/images/branch%20master2022-01-03%20140450.jpg){:.border.rounded}
 
