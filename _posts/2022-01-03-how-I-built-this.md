@@ -10,7 +10,7 @@ tags: ["GitHub", "TeXt"]
 
 注册和登录Github账号，安装Git、GitHub Desktop。此处略过。
 
-参考[TeXt Theme文档](https://tianqi.name/jekyll-TeXt-theme/)，选择普通方式安装TeXt。
+参考[TeXt Theme文档](https://kitian616.github.io/jekyll-TeXt-theme/docs/zh/quick-start)，选择普通方式安装TeXt。
 
 在安装开发环境这一步，本想使用Docker，但是卡在生成 *Gemfile.lock* 文件那一步，迟迟无法解决，最终还是选择了手动安装Ruby。
 
